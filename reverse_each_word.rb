@@ -4,5 +4,5 @@ def reverse_each_word(input_to_reverse)
   for i in splitted do
     empty_array.push(i.reverse)
   end
-  empty_array
+  empty_array.join(" ")
 end
