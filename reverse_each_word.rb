@@ -1,5 +1,5 @@
-def method_name(input_to_reverse)
+def reverse_each_word(input_to_reverse)
   result = input_to_reverse.each{ |word| word.reverse}
   result
-  pp result
+
 end
